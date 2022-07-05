@@ -1,0 +1,34 @@
+.h-container {
+  background-color: #001e28;
+  padding: 10px 25px;
+}
+.h-row:first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.h-row:first-child .h-col:first-child a {
+  color: #ff7f50;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.h-row:first-child .h-col:first-child p {
+  color: #fff;
+  font-size: x-small;
+  letter-spacing: 2px;
+}
+.h-row:first-child .h-col:last-child button {
+  padding: 5px 15px;
+  margin: 0 10px;
+  border: none;
+  background-color: #fff;
+  letter-spacing: 1.3px;
+  cursor: pointer;
+}
+.h-row:first-child .h-col:last-child button:active {
+  transform: translateY(-2px);
+}
